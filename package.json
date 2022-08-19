@@ -1,29 +1,29 @@
 {
   "name": "notion-diary-page-creator",
-  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start:local": "node -r dotenv/config index.js",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/azujuuuuuun/notion-diary-page-creator#readme",
+  "bugs": {
+    "url": "https://github.com/azujuuuuuun/notion-diary-page-creator/issues"
   },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/azujuuuuuun/notion-diary-page-creator.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/azujuuuuuun/notion-diary-page-creator/issues"
+  "scripts": {
+    "start": "node index.js",
+    "start:local": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/azujuuuuuun/notion-diary-page-creator#readme",
   "dependencies": {
     "@notionhq/client": "2.1.1",
     "dayjs": "1.11.5"
   },
   "devDependencies": {
     "dotenv": "16.0.1"
-  }
+  },
+  "type": "module"
 }
