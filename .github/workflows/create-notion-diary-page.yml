@@ -1,6 +1,6 @@
 name: Create Notion diary page
 on:
-  push:
+  workflow_dispatch:
   schedule:
     - cron: "0 22 * * *"
 jobs:
