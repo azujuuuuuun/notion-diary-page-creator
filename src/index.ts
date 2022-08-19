@@ -26,7 +26,7 @@ if (!diaryDatabaseId) {
 
   if (response.results.length > 0) {
     console.log("Today's diary page was already created.");
-    process.exit(0);
+    return;
   }
 
   await notion.pages.create({
