@@ -2,7 +2,7 @@
   "name": "notion-diary-page-creator",
   "version": "1.0.0",
   "license": "UNLICENSED",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/azujuuuuuun/notion-diary-page-creator.git"
